@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Desktop Home frontpage</title>
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+            crossorigin="anonymous"
+        >
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+            integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        >
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;900&display=swap');
+            * {
+                font-family: 'Raleway', sans-serif;
+            }
+            ::-webkit-scrollbar {
+                display: none;
+            }
+            html {
+                scroll-behavior: smooth;
+            }
+        </style>
+    </head>
+    <body class="">
+        <div style="min-height: 100vh;">
+            <nav class="navbar navbar-expand-lg bg-light navbar-light">
+                <div class="container-fluid p-3 py-1 px-md-5">
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                    >
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">
+                        <div class="d-flex align-items-center justify-content-end px-2 py-2" style="background: rgba(0, 0, 10, 0.1); border-radius: 50px;">
+                            <img src="https://i.pinimg.com/736x/dc/53/50/dc5350243970437d9fff2c8db3a9975b.jpg" style="width: 50px; mix-blend-mode: multiply;" alt="">
+                            <h5 class="fw-bold mt-1 px-2">ShoeMate</h5>
+                        </div>
+                    </a>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-md-5 justify-content-around">
+                            <li class="nav-item d-none d-md-block" style="border-left: 1px solid #aaa; margin-left: 40px;"></li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Discover</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact</a>
+                            </li>
+                        </ul>
+                        <div class="d-flex align-items-center justify-content-start gap-md-4">
+                            <button class="btn">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </button>
+                            <button class="btn">
+                                <i class="fa-solid fa-message"></i>
+                            </button>
+                            <button class="btn">
+                                <i class="fa-solid fa-user"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <section class="d-block p-5 d-md-flex align-items-center justify-content-end" style="min-height: 90vh; background-image: url(images/395121130_1341048033180488_7836402720064892731_n.jpg); background-repeat: no-repeat; background-size: cover; background-position: center;">
+                <img src="images/398290512_326535636901098_3140742619787248646_n.png" style="position: absolute; left:0%; bottom: -10px;" class="d-none d-md-block" width="60%" alt="">
+                <div class="text-center text-white col-md-5">
+                    <h1 class="fw-bold text-shadow-lg text-primary">ShoeMate</h1>
+                    <p class="fs-4">Each pair tells a story, a tale of where we've been, where we're going, and the paths we've choosen to tread</p>
+                </div>
+            </section>
+            <section class="" style="min-height: 80vh;">
+                <!-- content goes here -->
+                <div id="carouselExampleDark" class="carousel carousel-dark slide">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="10000">
+                            <img style="height: 90vh; object-fit: cover;" src="images/376575250_1747535742399752_2598193836162748130_n.jpg" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <img style="height: 90vh; object-fit: cover;" src="images/376575250_1747535742399752_2598193836162748130_n.jpg" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item">
+                            <img style="height: 90vh; object-fit: cover;" src="images/376575250_1747535742399752_2598193836162748130_n.jpg" class="d-block w-100">
+                        </div>
+                    </div>
+                    <button
+                        class="carousel-control-prev"
+                        type="button"
+                        data-bs-target="#carouselExampleDark"
+                        data-bs-slide="prev"
+                    >
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button
+                        class="carousel-control-next"
+                        type="button"
+                        data-bs-target="#carouselExampleDark"
+                        data-bs-slide="next"
+                    >
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                    <div class="carousel-indicators" style="position: absolute; bottom: -100px;">
+                        <button
+                            type="button"
+                            data-bs-target="#carouselExampleDark"
+                            data-bs-slide-to="0"
+                            class="active"
+                            aria-current="true"
+                            aria-label="Slide 1"
+                        ></button>
+                        <button
+                            type="button"
+                            data-bs-target="#carouselExampleDark"
+                            data-bs-slide-to="1"
+                            aria-label="Slide 2"
+                        ></button>
+                        <button
+                            type="button"
+                            data-bs-target="#carouselExampleDark"
+                            data-bs-slide-to="2"
+                            aria-label="Slide 3"
+                        ></button>
+                    </div>
+                </div>
+                <br><br>
+                <br><br><br>
+                <div class="p-5 mt-5">
+                    <div class="text-center">
+                        <h4>Most Popular</h4>
+                        <h1 class="fw-bold my-3">
+                            Our Exclusive Shoes
+                        </h1>
+                    </div>
+                    <div class="d-flex align-items-center justify-content-end px-5 mx-5 py-4 gap-3 flex-wrap">
+                        <button class="btn border rounded-circle">
+                            <i class="fa-solid fa-arrow-left"></i>
+                        </button>
+                        <button class="btn border rounded-circle" style="margin-right: 40px;">
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+                    </div>
+                    <div class="row justify-content-center gap-4">
+                        <div class="card border-2 p-0 col-5 col-md-3" style="border-radius: 40px; overflow: hidden;">
+                            <img
+                                src="images/398269892_193525900478624_5335606632093057055_n.png"
+                                class="card-img-top bg-light"
+                                style="height: 300px; object-fit: cover;"
+                                alt=""
+                            >
+                            <div class="card-body">
+                                <h5 class="card-title fs-6 fw-bold">ULTRARANGE EXO SHOE</h5>
+                                <span class="btn border border-dark text-dark fw-bold">50% off</span>
+                                <p class="card-text my-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                                <a href="#" class="btn btn-dark px-4" style="border-radius: 50px;">Order Now</a>
+                            </div>
+                        </div>
+                        <div class="card border-2 p-0 col-5 col-md-3" style="border-radius: 40px; overflow: hidden;">
+                            <img
+                                src="images/405341124_1416127165993753_3942427989548140724_n.png"
+                                class="card-img-top bg-light"
+                                style="height: 300px; object-fit: cover;"
+                                alt=""
+                            >
+                            <div class="card-body">
+                                <h5 class="card-title fs-6 fw-bold">Air Jordan 1 Low</h5>
+                                <span class="btn border border-dark text-dark fw-bold">40% off</span>
+                                <p class="card-text my-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                                <a href="#" class="btn btn-dark px-4" style="border-radius: 50px;">Order Now</a>
+                            </div>
+                        </div>
+                        <div class="card border-2 p-0 col-5 col-md-3" style="border-radius: 40px; overflow: hidden;">
+                            <img
+                                src="images/398295098_896075868537833_8825186022829129767_n.png"
+                                class="card-img-top bg-light"
+                                style="transform: scaleX(-1); height: 300px; object-fit: cover;"
+                                alt=""
+                            >
+                            <div class="card-body">
+                                <h5 class="card-title fs-6 fw-bold">Little MB</h5>
+                                <span class="btn border border-dark text-dark fw-bold">30% off</span>
+                                <p class="card-text my-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                                <a href="#" class="btn btn-dark px-4" style="border-radius: 50px;">Order Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center py-5">
+                        <h4>Main Service</h4>
+                        <h1 class="fw-bold my-3">
+                            Choose your favorite brand now
+                        </h1>
+                    </div>
+                    <div class="d-flex align-items-center justify-content-center gap-5 flex-wrap">
+                        <span>
+                            <img src="images/405280037_6901380663230546_7496708567276912919_n.jpg" style="width: 100px; height: 100px; border-radius: 50%; object-fit: cover; border: 3px solid #222;" alt="">
+                            <b class="d-block text-center mt-1">Adidas</b>
+                        </span>
+                        <span>
+                            <img src="images/394562049_710684780479494_7516477370461143355_n.jpg" style="width: 100px; height: 100px; border-radius: 50%; object-fit: cover; border: 3px solid #222;" alt="">
+                            <b class="d-block text-center mt-1">Nike</b>
+                        </span>
+                        <span>
+                            <img src="images/398013694_1253249779398577_6307524668301333787_n.jpg" style="width: 100px; height: 100px; border-radius: 50%; object-fit: cover; border: 3px solid #222;" alt="">
+                            <b class="d-block text-center mt-1">Puma</b>
+                        </span>
+                        <span>
+                            <img src="images/398196786_324546803622377_6793340484486131836_n.jpg" style="width: 100px; height: 100px; border-radius: 50%; object-fit: cover; border: 3px solid #222;" alt="">
+                            <b class="d-block text-center mt-1">Reebok</b>
+                        </span>
+                        <span>
+                            <img src="images/370270201_1026943811865135_98151215565916064_n.jpg" style="width: 100px; height: 100px; border-radius: 50%; object-fit: cover; border: 3px solid #222;" alt="">
+                            <b class="d-block text-center mt-1">Fila</b>
+                        </span>
+                        <span>
+                            <img src="images/370216437_1003364014105691_4317413322413595434_n.png" style="width: 100px; height: 100px; border-radius: 50%; object-fit: cover; border: 3px solid #222;" alt="">
+                            <b class="d-block text-center mt-1">Vans</b>
+                        </span>
+                    </div>
+                    <div class="text-center py-5 mt-4">
+                        <h4>Our Feature</h4>
+                        <h1 class="fw-bold my-3">
+                            Quality is Our First Priority
+                        </h1>
+                    </div>
+                    <div class="d-flex align-items-center flex-wrap justify-content-around px-md-5">
+                        <span class="text-center">
+                            <img src="https://i.pinimg.com/736x/dc/53/50/dc5350243970437d9fff2c8db3a9975b.jpg" style="width: 100px; height: 100px; border-radius: 50%; object-fit: cover;" alt="">
+                            <p class="d-block text-center mt-1">Step into style</p>
+                        </span>
+                        <span class="text-center">
+                            <img src="https://i.pinimg.com/736x/dc/53/50/dc5350243970437d9fff2c8db3a9975b.jpg" style="width: 100px; height: 100px; border-radius: 50%; object-fit: cover;" alt="">
+                            <p class="d-block text-center mt-1">Step into style</p>
+                        </span>
+                        <span class="text-center">
+                            <img src="https://i.pinimg.com/736x/dc/53/50/dc5350243970437d9fff2c8db3a9975b.jpg" style="width: 100px; height: 100px; border-radius: 50%; object-fit: cover;" alt="">
+                            <p class="d-block text-center mt-1">Elevate your every step</p>
+                        </span>
+                        <span class="text-center">
+                            <img src="https://i.pinimg.com/736x/dc/53/50/dc5350243970437d9fff2c8db3a9975b.jpg" style="width: 100px; height: 100px; border-radius: 50%; object-fit: cover;" alt="">
+                            <p class="d-block text-center mt-1">Feel first, fashion forward</p>
+                        </span>
+                    </div>
+                    <div class="text-center py-5 mt-4">
+                        <h4>The reasons</h4>
+                        <h1 class="fw-bold my-3">
+                            Why Choose Us?
+                        </h1>
+                    </div>
+                    <div class="container p-5 border d-flex align-items-center justify-content-center" style="border-radius: 50px; height: 20rem; background-color: rgb(247, 247, 247);">
+                        <i class="fa-solid fa-circle-play text-secondary" style="font-size: 7rem;"></i>
+                    </div>
+                    <div class="text-center py-5 mt-4">
+                        <h4>Be unique!</h4>
+                        <h1 class="fw-bold my-3">
+                            Let's be creative!
+                        </h1>
+                    </div>
+                    <div id="c2" class="carousel carousel-dark slide">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" data-bs-interval="10000">
+                                <div class="row justify-content-center gap-4">
+                                    <div class="card border-2 p-0 col-5 col-md-3" style="border-radius: 40px; overflow: hidden;">
+                                        <img
+                                            src="images/398176418_1540099103431624_1541376089929411206_n.jpg"
+                                            class="card-img-top bg-light"
+                                            style="height: 300px; object-fit: cover;"
+                                            alt=""
+                                        >
+                                    </div>
+                                    <div class="card border-2 p-0 col-5 col-md-3" style="border-radius: 40px; overflow: hidden;">
+                                        <img
+                                            src="images/398230009_1542951876455703_1206239350650448530_n.jpg"
+                                            class="card-img-top bg-light"
+                                            style="height: 300px; object-fit: cover;"
+                                            alt=""
+                                        >
+                                    </div>
+                                    <div class="card border-2 p-0 col-5 col-md-3" style="border-radius: 40px; overflow: hidden;">
+                                        <img
+                                            src="images/405453162_1373712026856879_321687827577909202_n.jpg"
+                                            class="card-img-top bg-light"
+                                            style="height: 300px; object-fit: cover;"
+                                            alt=""
+                                        >
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                                <div class="row justify-content-center gap-4">
+                                    <div class="card border-2 p-0 col-5 col-md-3" style="border-radius: 40px; overflow: hidden;">
+                                        <img
+                                            src="images/398176418_1540099103431624_1541376089929411206_n.jpg"
+                                            class="card-img-top bg-light"
+                                            style="height: 300px; object-fit: cover;"
+                                            alt=""
+                                        >
+                                    </div>
+                                    <div class="card border-2 p-0 col-5 col-md-3" style="border-radius: 40px; overflow: hidden;">
+                                        <img
+                                            src="images/398230009_1542951876455703_1206239350650448530_n.jpg"
+                                            class="card-img-top bg-light"
+                                            style="height: 300px; object-fit: cover;"
+                                            alt=""
+                                        >
+                                    </div>
+                                    <div class="card border-2 p-0 col-5 col-md-3" style="border-radius: 40px; overflow: hidden;">
+                                        <img
+                                            src="images/405453162_1373712026856879_321687827577909202_n.jpg"
+                                            class="card-img-top bg-light"
+                                            style="height: 300px; object-fit: cover;"
+                                            alt=""
+                                        >
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                                <div class="row justify-content-center gap-4">
+                                    <div class="card border-2 p-0 col-5 col-md-3" style="border-radius: 40px; overflow: hidden;">
+                                        <img
+                                            src="images/398176418_1540099103431624_1541376089929411206_n.jpg"
+                                            class="card-img-top bg-light"
+                                            style="height: 300px; object-fit: cover;"
+                                            alt=""
+                                        >
+                                    </div>
+                                    <div class="card border-2 p-0 col-5 col-md-3" style="border-radius: 40px; overflow: hidden;">
+                                        <img
+                                            src="images/398230009_1542951876455703_1206239350650448530_n.jpg"
+                                            class="card-img-top bg-light"
+                                            style="height: 300px; object-fit: cover;"
+                                            alt=""
+                                        >
+                                    </div>
+                                    <div class="card border-2 p-0 col-5 col-md-3" style="border-radius: 40px; overflow: hidden;">
+                                        <img
+                                            src="images/405453162_1373712026856879_321687827577909202_n.jpg"
+                                            class="card-img-top bg-light"
+                                            style="height: 300px; object-fit: cover;"
+                                            alt=""
+                                        >
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                                <div class="row justify-content-center gap-4">
+                                    <div class="card border-2 p-0 col-5 col-md-3" style="border-radius: 40px; overflow: hidden;">
+                                        <img
+                                            src="images/398176418_1540099103431624_1541376089929411206_n.jpg"
+                                            class="card-img-top bg-light"
+                                            style="height: 300px; object-fit: cover;"
+                                            alt=""
+                                        >
+                                    </div>
+                                    <div class="card border-2 p-0 col-5 col-md-3" style="border-radius: 40px; overflow: hidden;">
+                                        <img
+                                            src="images/398230009_1542951876455703_1206239350650448530_n.jpg"
+                                            class="card-img-top bg-light"
+                                            style="height: 300px; object-fit: cover;"
+                                            alt=""
+                                        >
+                                    </div>
+                                    <div class="card border-2 p-0 col-5 col-md-3" style="border-radius: 40px; overflow: hidden;">
+                                        <img
+                                            src="images/405453162_1373712026856879_321687827577909202_n.jpg"
+                                            class="card-img-top bg-light"
+                                            style="height: 300px; object-fit: cover;"
+                                            alt=""
+                                        >
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row justify-content-center gap-4">
+                                    <div class="card border-2 p-0 col-5 col-md-3" style="border-radius: 40px; overflow: hidden;">
+                                        <img
+                                            src="images/398176418_1540099103431624_1541376089929411206_n.jpg"
+                                            class="card-img-top bg-light"
+                                            style="height: 300px; object-fit: cover;"
+                                            alt=""
+                                        >
+                                    </div>
+                                    <div class="card border-2 p-0 col-5 col-md-3" style="border-radius: 40px; overflow: hidden;">
+                                        <img
+                                            src="images/398230009_1542951876455703_1206239350650448530_n.jpg"
+                                            class="card-img-top bg-light"
+                                            style="height: 300px; object-fit: cover;"
+                                            alt=""
+                                        >
+                                    </div>
+                                    <div class="card border-2 p-0 col-5 col-md-3" style="border-radius: 40px; overflow: hidden;">
+                                        <img
+                                            src="images/405453162_1373712026856879_321687827577909202_n.jpg"
+                                            class="card-img-top bg-light"
+                                            style="height: 300px; object-fit: cover;"
+                                            alt=""
+                                        >
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button
+                            class="carousel-control-prev"
+                            type="button"
+                            data-bs-target="#c2"
+                            data-bs-slide="prev"
+                        >
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button
+                            class="carousel-control-next"
+                            type="button"
+                            data-bs-target="#c2"
+                            data-bs-slide="next"
+                        >
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                        <div class="carousel-indicators position-absolute" style="bottom: -80px;">
+                            <button
+                                type="button"
+                                data-bs-target="#c2"
+                                data-bs-slide-to="0"
+                                class="active"
+                                aria-current="true"
+                                aria-label="Slide 1"
+                            ></button>
+                            <button
+                                type="button"
+                                data-bs-target="#c2"
+                                data-bs-slide-to="1"
+                                aria-label="Slide 2"
+                            ></button>
+                            <button
+                                type="button"
+                                data-bs-target="#c2"
+                                data-bs-slide-to="2"
+                                aria-label="Slide 3"
+                            ></button>
+                            <button
+                                type="button"
+                                data-bs-target="#c2"
+                                data-bs-slide-to="3"
+                                aria-label="Slide 4"
+                            ></button>
+                            <button
+                                type="button"
+                                data-bs-target="#c2"
+                                data-bs-slide-to="4"
+                                aria-label="Slide 5"
+                            ></button>
+                        </div>
+                    </div>
+                    <br>
+                    <br>
+                    <br>
+                    <div class="text-center py-5 mt-4 col-md-5 mx-auto">
+                        <h4>Get In Touch</h4>
+                        <h1 class="fw-bold my-3">
+                            Join Our Newsletter
+                        </h1>
+                        <p>Your shoes and your feet deserve the perfect shoemate. The right pair can provide comfort, support, and style, making evrey step a pleasure. Choose us because we're your partner in walking through life with confidence and comfort.</p>
+                        <div class="d-flex align-items-center justify-content-center gap-5">
+                            <input
+                                type="email"
+                                class="form-control"
+                                name="email"
+                                id="email"
+                                placeholder="Your email"
+                            >
+                            <button class="btn btn-dark btn-lg fs-6" style="border-radius: 50px;">Subscribe</button>
+                        </div>
+                    </div>
+                    <div class="p-5 row flex-wrap justify-content-center">
+                        <div class="col col-md-3">
+                            <h5 class="text-secondary fw-bold">ShoeMate</h5>
+                            <h5 class="fw-bold">Contact us</h5>
+                            <h6 class="my-4">ShoeMate@gmal.com
+                                <br>
+                                <h6 class="my-4">+1-2345-6789</h6>
+                                <h6 class="my-4">123 Ave, New York, USA</h6>
+                                <h6 class="d-flex align-items-center justify-content-start gap-4 mt-4">
+                                    <i class="fs-4 fa-brands fa-facebook"></i>
+                                    <i class="fs-4 fa-brands fa-linkedin"></i>
+                                    <i class="fs-4 fa-brands fa-twitter"></i>
+                                    <i class="fs-4 fa-brands fa-instagram"></i>
+                                </h6>
+                            </div>
+                            <div class="col col-md-3">
+                                <h5 class="fw-bold">Get Help</h5>
+                                <h6 class="my-4">Order Status
+                                    <br>
+                                    <h6 class="my-4">Delivery</h6>
+                                    <h6 class="my-4">Returns</h6>
+                                    <h6 class="my-4">Payment Options</h6>
+                                    <h6 class="my-4">Refunds</h6>
+                                </div>
+                                <div class="col col-md-3">
+                                    <h5 class="fw-bold">About</h5>
+                                    <h6 class="my-4">Our Story
+                                        <br>
+                                        <h6 class="my-4">Contact Us</h6>
+                                    </div>
+                                    <div class="col col-md-3">
+                                        <h5 class="fw-bold">Get the app</h5>
+                                        <a href="" class="btn col-6 py-0 btn-dark d-flex align-items-center justify-content-center gap-2">
+                                            <i class="fa-brands fa-apple fs-1"></i>
+                                            <span>
+                                                <small style="font-size: 11px;">Download on the</small>
+                                                <h6>App Store</h6>
+                                            </span>
+                                        </a>
+                                        <a href="" class="btn my-3 col-6 py-0 btn-dark d-flex align-items-center justify-content-center gap-2">
+                                            <i class="fa-brands fa-google-play"></i>
+                                            <span>
+                                                <small style="font-size: 11px;">Download on the</small>
+                                                <h6>Google Play</h6>
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-center flex-wrap justify-content-between px-5">
+                                    <span style="width: 160px;" class="d-flex align-items-center justify-content-center">
+                                        <i class="fa-solid fa-globe"></i>
+                                        <select name="language" class="form-select bg-none border-0 text-muted" id="">
+                                            <option value="english">English</option>
+                                            <option value="bisaya">Bisaya</option>
+                                            <option value="tagalog">Tagalog</option>
+                                        </select>
+                                    </span>
+                                    <span class="text-muted">
+                                        Copyright © 2020. All rights reserved.
+                                    </span>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+                </body>
+            </html>
